@@ -66,6 +66,7 @@
         android:textStyle="bold|italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
 
 
     <com.google.android.gms.common.SignInButton
