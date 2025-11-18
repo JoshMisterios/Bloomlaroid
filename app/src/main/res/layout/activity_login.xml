@@ -3,63 +3,97 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_login_usuario"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/fragment_login_usuario"
-    android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+    android:background="#1B092E"
+    android:padding="24dp"
     tools:context=".ui.login.LoginActivity">
 
+    <!-- Título estilo neon/vintage -->
     <TextView
         android:id="@+id/text_login_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:text="Login de Usuário"
-        android:textSize="24sp"
+        android:textSize="26sp"
         android:textStyle="bold"
+        android:textColor="#EEDCFF"
+        android:letterSpacing="0.03"
+        android:shadowColor="#7A3FA6"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="12"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <!-- Input vintage escuro -->
     <EditText
         android:id="@+id/edit_text_email"
         android:layout_width="match_parent"
         android:layout_height="48dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="32dp"
+        android:background="#2C1A44"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A980D3"
         android:hint="Email"
         android:inputType="textEmailAddress"
+        android:elevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_login_title" />
 
+    <!-- Input senha -->
     <EditText
         android:id="@+id/edit_text_password"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
+        android:background="#2C1A44"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A980D3"
         android:hint="Senha"
         android:inputType="textPassword"
+        android:elevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit_text_email" />
 
+    <!-- Botão principal dark roxo -->
     <Button
         android:id="@+id/button_login"
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:backgroundTint="#B4BFA175"
         android:foregroundTint="#AB3232"
         android:text="Login"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#7627A8"
+        android:elevation="6dp"
+        android:padding="10dp"
+        android:letterSpacing="0.04"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit_text_password" />
 
+    <!-- Link roxo suave -->
     <TextView
         android:id="@+id/registerLink"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
+<<<<<<< Updated upstream
         android:layout_marginTop="16dp"
+=======
+        android:text="Cadastre-se"
+        android:textColor="#CFAAFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.03"
+>>>>>>> Stashed changes
         android:clickable="true"
         android:focusable="true"
         android:textColorLink="#FF0000"
@@ -69,11 +103,13 @@
         tools:ignore="MissingConstraints" />
 
 
+    <!-- Botão Google simulando moldura vintage -->
     <com.google.android.gms.common.SignInButton
         android:id="@+id/btnGoogleSignIn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
+<<<<<<< Updated upstream
         android:text="Login com Google"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -81,3 +117,13 @@
         app:layout_constraintTop_toBottomOf="@id/button_login" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+        android:background="#1B092E"
+        android:elevation="8dp"
+        android:padding="4dp"
+        android:translationZ="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/registerLink" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> Stashed changes

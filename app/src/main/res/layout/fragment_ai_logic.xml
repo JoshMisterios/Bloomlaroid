@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ai_logic_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B092E"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Moldura estilo Polaroid -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F3F0E7"
+        android:padding="12dp"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:elevation="8dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bitmapImageView"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:scaleType="centerCrop"
+            android:background="#000000"
+            android:contentDescription="Selecionar Imagem" />
+
+        <!-- Parte inferior branca da polaroid -->
+        <TextView
+            android:id="@+id/polaroid_label"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="Bloomlaroid"
+            android:textColor="#3B2B6F"
+            android:textStyle="bold"
+            android:letterSpacing="0.05"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_select_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecionar Imagem"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#532A86"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:id="@+id/prompt_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:hint="Digite seu prompt"
+        android:background="#2E1A47"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#A980D3"
+        android:minHeight="120dp"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btn_generate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7627A8"
+        android:text="Gerar Resposta"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Resultado aparecerá aqui"
+        android:textColor="#D8C9F6"
+        android:textSize="16sp"/>
+</LinearLayout>
