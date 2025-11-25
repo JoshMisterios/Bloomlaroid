@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ai_logic_layout"
     android:layout_width="match_parent"
@@ -11,24 +9,19 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical"
     android:padding="24dp">
-=======
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1A1524">
->>>>>>> Stashed changes
-=======
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#1A1524">
->>>>>>> Stashed changes
 
 
     <LinearLayout
         android:id="@+id/ai_logic_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
+
         android:background="#F3F0E7"
         android:padding="12dp"
         android:gravity="center"
@@ -43,15 +36,15 @@
             android:scaleType="centerCrop"
             android:background="#000000"
             android:contentDescription="Selecionar Imagem" />
-=======
+
         android:orientation="vertical"
         android:padding="18dp">
 
-=======
+
         android:orientation="vertical"
         android:padding="18dp">
 
->>>>>>> Stashed changes
+
 
         <FrameLayout
             android:layout_width="match_parent"
@@ -135,16 +128,13 @@
             android:textColor="#1A1524"
             android:backgroundTint="#C9A8FF"
             android:padding="12dp" />
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+
 
 
         <TextView
             android:id="@+id/polaroid_label"
             android:layout_width="match_parent"
-<<<<<<< Updated upstream
+
             android:layout_height="40dp"
             android:gravity="center"
             android:text="Bloomlaroid"
@@ -194,7 +184,7 @@
         android:textColor="#D8C9F6"
         android:textSize="16sp"/>
 </LinearLayout>
-=======
+
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
             android:text="Resultado aparecerá aqui"
@@ -202,7 +192,3 @@
             android:textSize="16sp" />
     </LinearLayout>
 </ScrollView>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
