@@ -5,6 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< Updated upstream
     android:background="#2F1E4A"
     android:paddingTop="?attr/actionBarSize">
 
@@ -40,3 +41,35 @@
         app:menu="@menu/bottom_nav_menu" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+    android:background="#1A1524"
+    android:paddingTop="?attr/actionBarSize">
+
+
+<fragment
+android:id="@+id/nav_host_fragment_activity_main"
+android:name="androidx.navigation.fragment.NavHostFragment"
+android:layout_width="match_parent"
+android:layout_height="0dp"
+app:defaultNavHost="true"
+app:navGraph="@navigation/mobile_navigation"
+app:layout_constraintTop_toTopOf="parent"
+app:layout_constraintBottom_toTopOf="@id/nav_view" />
+
+
+<com.google.android.material.bottomnavigation.BottomNavigationView
+android:id="@+id/nav_view"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:background="#2D2141"
+    android:padding="6dp"
+    app:itemIconTint="@color/nav_vintage_selector"
+    app:itemTextColor="@color/nav_vintage_selector"
+    app:labelVisibilityMode="labeled"
+    app:menu="@menu/bottom_nav_menu"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> Stashed changes
