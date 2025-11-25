@@ -2,6 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ai_logic_layout"
     android:layout_width="match_parent"
@@ -15,12 +16,18 @@
     android:layout_height="match_parent"
     android:background="#1A1524">
 >>>>>>> Stashed changes
+=======
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1A1524">
+>>>>>>> Stashed changes
 
-    <!-- Moldura estilo Polaroid -->
+
     <LinearLayout
         android:id="@+id/ai_logic_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         android:background="#F3F0E7"
         android:padding="12dp"
@@ -40,7 +47,12 @@
         android:orientation="vertical"
         android:padding="18dp">
 
-        <!-- Polaroid Roxa para Imagem -->
+=======
+        android:orientation="vertical"
+        android:padding="18dp">
+
+>>>>>>> Stashed changes
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="220dp"
@@ -62,7 +74,7 @@
                     android:src="@android:drawable/gallery_thumb"
                     android:contentDescription="Selecionar Imagem" />
 
-                <!-- Granulação fake -->
+
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -80,7 +92,7 @@
             android:textColor="#1A1524"
             android:padding="10dp" />
 
-        <!-- Caixa Polaroid do prompt -->
+
         <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="150dp"
@@ -123,9 +135,12 @@
             android:textColor="#1A1524"
             android:backgroundTint="#C9A8FF"
             android:padding="12dp" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 
-        <!-- Parte inferior branca da polaroid -->
+
         <TextView
             android:id="@+id/polaroid_label"
             android:layout_width="match_parent"
@@ -187,4 +202,7 @@
             android:textSize="16sp" />
     </LinearLayout>
 </ScrollView>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes

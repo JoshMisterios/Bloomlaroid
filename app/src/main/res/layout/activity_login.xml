@@ -7,8 +7,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     android:background="#1B092E"
     android:padding="24dp"
+=======
+    android:padding="24dp"
+    android:background="#1E1628"
+>>>>>>> Stashed changes
 =======
     android:padding="24dp"
     android:background="#1E1628"
@@ -25,6 +30,7 @@
         android:textSize="26sp"
         android:textStyle="bold"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         android:textColor="#EEDCFF"
         android:letterSpacing="0.03"
         android:shadowColor="#7A3FA6"
@@ -36,12 +42,17 @@
         android:textColor="#D7C7FF"
         app:layout_constraintTop_toTopOf="parent"
 >>>>>>> Stashed changes
+=======
+        android:textColor="#D7C7FF"
+        app:layout_constraintTop_toTopOf="parent"
+>>>>>>> Stashed changes
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
     <!-- Input vintage escuro -->
     <EditText
         android:id="@+id/edit_text_email"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -61,10 +72,21 @@
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
         android:hint="Email"
+=======
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:background="@drawable/input_style"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:hint="Email"
+>>>>>>> Stashed changes
         android:textColor="#FFFFFF"
         android:textColorHint="#BCA9D9"
         android:layout_marginTop="24dp"
         app:layout_constraintTop_toBottomOf="@id/text_login_title"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
@@ -72,6 +94,7 @@
     <!-- Input senha -->
     <EditText
         android:id="@+id/edit_text_password"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         android:layout_width="match_parent"
         android:layout_height="48dp"
@@ -81,19 +104,29 @@
         android:textColor="#FFFFFF"
         android:textColorHint="#A980D3"
 =======
+=======
+>>>>>>> Stashed changes
         android:layout_width="0dp"
         android:layout_height="52dp"
         android:background="@drawable/input_style"
         android:paddingStart="16dp"
         android:paddingEnd="16dp"
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         android:hint="Senha"
         android:textColor="#FFFFFF"
         android:textColorHint="#BCA9D9"
         android:inputType="textPassword"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         android:elevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
+=======
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/edit_text_email"
+>>>>>>> Stashed changes
 =======
         android:layout_marginTop="16dp"
         app:layout_constraintTop_toBottomOf="@id/edit_text_email"
@@ -113,6 +146,7 @@
         android:elevation="5dp"
         android:layout_marginTop="24dp"
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         android:backgroundTint="#B4BFA175"
         android:foregroundTint="#AB3232"
         android:text="Login"
@@ -125,6 +159,9 @@
 =======
         app:layout_constraintTop_toBottomOf="@id/edit_text_password"
 >>>>>>> Stashed changes
+=======
+        app:layout_constraintTop_toBottomOf="@id/edit_text_password"
+>>>>>>> Stashed changes
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
@@ -132,6 +169,7 @@
     <TextView
         android:id="@+id/registerLink"
         android:layout_width="wrap_content"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         android:layout_height="48dp"
 <<<<<<< Updated upstream
@@ -159,6 +197,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 >>>>>>> Stashed changes
+=======
+        android:layout_height="wrap_content"
+        android:text="Cadastre-se"
+        android:textStyle="bold"
+        android:textColor="#D7C7FF"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/button_login"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+>>>>>>> Stashed changes
 
 
     <!-- Botão Google simulando moldura vintage -->
@@ -166,6 +214,7 @@
         android:id="@+id/btnGoogleSignIn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         android:layout_marginTop="24dp"
 <<<<<<< Updated upstream
@@ -184,6 +233,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/registerLink" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> Stashed changes
+=======
+        android:layout_marginTop="28dp"
+        app:layout_constraintTop_toBottomOf="@id/registerLink"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 >>>>>>> Stashed changes
 =======
